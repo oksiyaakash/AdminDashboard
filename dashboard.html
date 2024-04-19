@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./images/icons8-university-60.png" type="image/x-icon">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -15,66 +17,41 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                     
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> <a class="navbar-brand" href="#">Brand</a>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                 <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                 <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                     <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="text" /> 
-                            <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                                Search
-                            </button>
-                        </form>
-                        <ul class="navbar-nav ml-md-auto">
-                            <li class="nav-item active">
-                                 <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                     <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li>
-                        </ul>
+        
+                <div class="row header">
+                    <div class="dropdown col-md-3">
+                        <button class="dropbtn"><img src="./images/icons8-list-50.png" width="30px" alt=""></button>
+                        <div class="dropdown-content">
+                          <a href="#">Admin Profile</a>
+                          <a href="#">ERP Modules</a>
+                          <a href="#">Log Out</a>
+                        </div>
+                      </div>
+                    <div class="col-md-3 center">
+                        Admin Dashboard
                     </div>
-                </nav>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
+                    <div class="col-md-3">
+                        <div class="right">
+                            <img src="./images/icons8-university-50.png" width="30px" alt=""><span id="brandName">Institute Name</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+        <div class="row" style="margin-top: 3%;">
+            <div class="col-md-3 card1 ">
+                <div class="cardInner">
                     <h5 class="card-header">
-                        Card title
+                        Total Students
                     </h5>
-                    <div class="card-body">
+                    <div class="cardBody">
                         <p class="card-text">
-                            Card content
+                            <img src="./images/icons8-person-80 (1).png" width="50px" alt="">
+                            <span class="right" style="font-size: 36px; font-weight: 700; color: aliceblue;">0</span>
                         </p>
                     </div>
-                    <div class="card-footer">
-                        Card footer
+                    <div class="cardFooter">
+                       <span>This Month </span>  <span class="right" style="font-size: 22px; font-weight: 700; color: aliceblue;">0</span>
                     </div>
                 </div>
             </div>
@@ -133,5 +110,6 @@
             </div>
         </div>
     </div>
+    <img src="./images/Admin Dashboard.jpeg" alt="">
 </body>
 </html>

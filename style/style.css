@@ -1,0 +1,96 @@
+/* -------Dropdown start------- */
+/* Style The Dropdown Button */
+.dropbtn {
+    /* background-color: */
+    /* color: white; */
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #308FF9;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: grey;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #308FF9;
+
+
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #308FF9;
+  }
+
+  /* -------Dropdown Ends------- */
+
+  /* -----Header Design----- */
+
+.header{
+    background-color: #308FF9;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 900;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .right{
+    margin-top: 10px;
+    float: right;
+  }
+  #brandName{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  .card1{
+    background-color: #5551AF;
+    margin: 2%;
+    border-radius: 10px;
+    height: 30vh;
+  }
+  
+  .cardInner{
+    margin: 5%;
+  }
+
