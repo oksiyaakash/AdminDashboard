@@ -62,7 +62,6 @@
 .center {
     margin: auto;
     width: 50%;
-    /* border: 3px solid green; */
     padding: 10px;
     font-size: 22px;
     font-weight: 900;
@@ -84,7 +83,6 @@
 
 
   .card1{
-    /* background-color: #5551AF; */
     margin: 2%;
     border-radius: 10px;
     height: 30vh;
@@ -112,17 +110,72 @@
 
   .grid-container {
     display: grid;
-    /* column-gap: 50px; */
     grid-template-columns: auto auto auto auto;
-    /* background-color: #d1d1d1; */
     padding: 10px;
   }
   
   .grid-item {
     color: white;
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* padding-top: px; */
     font-size: 18px;
-    /* text-align: center; */
+  }
+
+ .card2 {
+  background-color: #F7E9E9;
+  border-radius: 10px;
+
+ }
+ .card2 h5 {
+  padding-top: 20px;  
+  padding-left: 10px;
+  color: #E58E93;
+ }
+.card2 p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item2 {
+  color: rgb(167, 167, 167);
+  font-size: 14px;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 10px;
+}
+
+.card3 {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+ }
+
+ .card3 h5 {
+  padding-top: 20px;  
+  padding-left: 10px;
+  color: #000000;
+ }
+
+ .card3 p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 38px;
+  font-weight: 700;
+  color: #E58E93;
+  text-align: center;
+}
+
+  @media only screen and (max-width: 600px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto ;
+      padding: 10px;
+    }
   }
