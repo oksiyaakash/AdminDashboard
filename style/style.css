@@ -63,7 +63,7 @@
     margin: auto;
     width: 50%;
     padding: 10px;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 900;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,7 +75,7 @@
   }
   #brandName{
     padding: 10px;
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 600;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -85,7 +85,7 @@
   .card1{
     margin: 2%;
     border-radius: 10px;
-    height: 30vh;
+    height: 25vh;
   }
 
   .card1:first-child{
@@ -170,6 +170,20 @@
   font-weight: 700;
   color: #E58E93;
   text-align: center;
+}
+
+.chartcard1{
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color:#d5d3d3;
+  padding: 20px 60px;
+}
+
+.chartcard2{
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color:#fff4f4;
+  padding: 20px 60px;
 }
 
   @media only screen and (max-width: 600px) {
