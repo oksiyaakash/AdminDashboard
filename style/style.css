@@ -85,7 +85,6 @@
   .card1{
     margin: 2%;
     border-radius: 10px;
-    height: 25vh;
   }
 
   .card1:first-child{
@@ -191,5 +190,22 @@
       display: grid;
       grid-template-columns: auto ;
       padding: 10px;
+    }
+
+    .center {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 900;
+      color: aliceblue;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #brandName{
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      color: aliceblue;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
   }
